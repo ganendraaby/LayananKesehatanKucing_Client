@@ -1,0 +1,114 @@
+.consultation-page {
+  background-color: #f8f9fa;
+}
+
+.sidebar {
+  background-color: #343a40;
+  height: 100vh;
+}
+
+.sidebar .nav-link {
+  color: #ffffff;
+}
+
+.sidebar .nav-link.active {
+  background-color: #495057;
+}
+
+.content {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.breadcrumb {
+  font-size: 14px;
+}
+
+.profile .btn {
+  border-color: #343a40;
+  color: #343a40;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.steps .step {
+  padding: 10px;
+  background-color: #e9ecef;
+  border-radius: 5px;
+}
+
+.steps .step.active {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.cat-selection, .doctor-selection, .schedule-selection {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cat-option, .doctor-icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.cat-option .cat-icon, .doctor-icon {
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.schedule-options .btn {
+  margin-top: 10px;
+}
+
+.doctor-card {
+  margin-top: 20px;
+}
+
+.step-navigation .btn {
+  margin-right: 10px;
+}
+
+.cat-selection {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cat-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  width: 270px; /* Adjust this width as necessary */
+}
+
+.cat-checkbox-label {
+  display: flex;
+  align-items: center;
+}
+
+.cat-checkbox-label input {
+  margin-right: 5px;
+}
+
+.cat-img {
+  object-fit: contain;
+  margin-top: 5px;
+}
